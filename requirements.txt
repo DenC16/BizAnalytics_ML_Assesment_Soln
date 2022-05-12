@@ -3,9 +3,7 @@ joblib==1.0.0
 matplotlib==3.5.1
 numpy==1.19.1
 pandas==1.0.5
-Pillow==9.1.0
 pipreqs==0.4.11
-requests==2.27.1
 scikit-learn==0.23.1
 scipy==1.5.4
 urllib3==1.26.9
