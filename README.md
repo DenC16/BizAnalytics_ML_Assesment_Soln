@@ -15,22 +15,21 @@ I used the [Apache SpamAssassin public data](https://spamassassin.apache.org/old
   - Remove punctuation
   - Convert the resulting text to bag-of-words representation
 - Train and evaluate a few models on recall, precision and ROC:
-  - SGD
   - MLP
   - Decision Tree
   - Random Forest
   - AdaBoost
   - KNN
   - SVM classifier
-- Fine-tune the best classifiers (MLP, AdaBoost and SVM)
+- Fine-tune the best classifiers (MLP, AdaBoost and Random Forest)
 - Evaluate on the test set
 
 ## Best Model
 The best classifier is the MLP classifier with about:
-- 98.7% accuracy
-- 98.2% precision
-- 98.9% recall
-- 98.6% f1-score
+- 99.1% accuracy
+- 100% precision
+- 98.2% recall
+- 99.09% f1-score
 
 ## Models Link
 
